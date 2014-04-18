@@ -78,3 +78,6 @@ F. IF NOT ABLE TO REMOVE DATA FROM MYSQL,(TRUNCATE) FOLLOW THESE STEPS:
     mysql>  TRUNCATE TABLE table_name;
     mysql>  TRUNCATE TABLE table_name;
     mysql>  SET FOREIGN_KEY_CHECKS = 1; -- Enable foreign key checking.
+    
+G.Start apache2 server:
+    sudo /etc/init.d/apache2 restart
